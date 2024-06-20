@@ -1,0 +1,14 @@
+{
+  "device": {
+      "ip": "127.0.0.1",
+      "port": 9225,
+      "electronVersion": "19.1.8",
+      "teamsVersion": "T1"
+  },
+  "tasks": [
+      {
+          "name": "1P: Meet now",
+          "count": 1
+      }
+  ]
+}

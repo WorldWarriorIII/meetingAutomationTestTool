@@ -1,0 +1,76 @@
+[2023-09-05T16:14:52.939] [DEBUG] default - Some debug messages
+[2023-09-05T16:58:31.171] [DEBUG] default - Some debug messages
+[2023-09-05T16:58:31.172] [INFO] default - This is a logger info
+[2023-09-05T16:59:35.327] [DEBUG] default - Some debug messages
+[2023-09-05T16:59:35.328] [INFO] default - This is a logger info
+[2023-09-05T16:59:35.328] [INFO] default - This is a logger info
+[2023-09-05T17:02:09.008] [INFO] default - This is a logger info
+[2023-09-05T17:02:09.009] [INFO] default - This is a logger info
+[2023-09-05T22:08:36.848] [INFO] default - This is a logger info
+[2023-09-05T22:08:36.849] [INFO] default - This is a logger info
+[2023-09-05T22:08:49.760] [ERROR] default - Error: Invalid command field task, reason: Invalid task: undefined
+    at Command.parseField (C:\Users\Administrator\teams-client-platform-mtr\RigelAutomation\src\models\command\command.ts:46:13)
+    at new Command (C:\Users\Administrator\teams-client-platform-mtr\RigelAutomation\src\models\command\command.ts:18:22)
+    at PromptParser.getCommandFromInput (C:\Users\Administrator\teams-client-platform-mtr\RigelAutomation\src\services\command-line-input-manager\modules\prompt-parser.ts:67:12)
+    at PromptParser.<anonymous> (C:\Users\Administrator\teams-client-platform-mtr\RigelAutomation\src\services\command-line-input-manager\modules\prompt-parser.ts:18:17)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Administrator\teams-client-platform-mtr\RigelAutomation\src\services\command-line-input-manager\modules\prompt-parser.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-09-05T22:09:34.122] [INFO] default - This is a logger info
+[2023-09-05T22:09:34.123] [INFO] default - This is a logger info
+[2023-09-05T22:09:40.876] [ERROR] default - Error: Invalid command field task, reason: Invalid task: undefined
+    at Command.parseField (C:\Users\Administrator\teams-client-platform-mtr\RigelAutomation\src\models\command\command.ts:46:13)
+    at new Command (C:\Users\Administrator\teams-client-platform-mtr\RigelAutomation\src\models\command\command.ts:18:22)
+    at PromptParser.getCommandFromInput (C:\Users\Administrator\teams-client-platform-mtr\RigelAutomation\src\services\command-line-input-manager\modules\prompt-parser.ts:67:12)
+    at PromptParser.<anonymous> (C:\Users\Administrator\teams-client-platform-mtr\RigelAutomation\src\services\command-line-input-manager\modules\prompt-parser.ts:18:17)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Administrator\teams-client-platform-mtr\RigelAutomation\src\services\command-line-input-manager\modules\prompt-parser.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-09-08T11:40:00.596] [INFO] default - This is a logger info
+[2023-09-08T11:40:00.597] [INFO] default - This is a logger info
+[2023-09-08T11:40:25.936] [INFO] default - This is a logger info
+[2023-09-08T11:40:25.937] [INFO] default - This is a logger info
+[2023-09-08T11:44:39.259] [INFO] default - This is a logger info
+[2023-09-08T11:44:39.260] [INFO] default - This is a logger info
+[2023-09-08T13:51:45.554] [INFO] default - This is a logger info
+[2023-09-08T13:51:45.555] [INFO] default - This is a logger info
+[2023-09-08T13:55:58.256] [INFO] default - This is a logger info
+[2023-09-08T13:55:58.257] [INFO] default - This is a logger info
+[2023-09-08T13:58:09.294] [INFO] default - This is a logger info
+[2023-09-08T13:58:09.295] [INFO] default - This is a logger info
+[2023-09-08T14:01:00.744] [INFO] default - This is a logger info
+[2023-09-08T14:01:00.745] [INFO] default - This is a logger info
+[2023-09-08T14:01:35.050] [INFO] default - This is a logger info
+[2023-09-08T14:01:35.051] [INFO] default - This is a logger info
+[2023-09-08T14:03:39.855] [INFO] default - This is a logger info
+[2023-09-08T14:03:39.864] [INFO] default - This is a logger info
+[2023-09-08T14:06:31.013] [INFO] default - This is a logger info
+[2023-09-08T14:06:31.014] [INFO] default - This is a logger info
+[2023-09-08T15:24:44.003] [INFO] default - This is a logger info
+[2023-09-08T15:24:44.004] [INFO] default - This is a logger info
+[2023-09-08T15:29:46.329] [INFO] default - This is a logger info
+[2023-09-08T15:29:46.330] [INFO] default - This is a logger info
+[2023-09-08T15:30:37.255] [INFO] default - This is a logger info
+[2023-09-08T15:30:37.256] [INFO] default - This is a logger info
+[2023-09-08T15:32:20.874] [INFO] default - This is a logger info
+[2023-09-08T15:32:20.875] [INFO] default - This is a logger info
+[2023-09-11T10:44:37.179] [INFO] default - This is a logger info
+[2023-09-11T10:44:37.180] [INFO] default - This is a logger info
+[2023-09-11T10:49:40.228] [INFO] default - This is a logger info
+[2023-09-11T10:49:40.229] [INFO] default - This is a logger info
+[2023-09-11T10:53:09.325] [ERROR] default - Error: Invalid command field task, reason: Invalid task: undefined
+    at Command.parseField (C:\Users\Administrator\teams-client-platform-mtr\RigelAutomation\src\models\command\command.ts:46:13)
+    at new Command (C:\Users\Administrator\teams-client-platform-mtr\RigelAutomation\src\models\command\command.ts:18:22)
+    at PromptParser.getCommandFromInput (C:\Users\Administrator\teams-client-platform-mtr\RigelAutomation\src\services\command-line-input-manager\modules\prompt-parser.ts:67:12)
+    at PromptParser.<anonymous> (C:\Users\Administrator\teams-client-platform-mtr\RigelAutomation\src\services\command-line-input-manager\modules\prompt-parser.ts:18:17)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Administrator\teams-client-platform-mtr\RigelAutomation\src\services\command-line-input-manager\modules\prompt-parser.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-09-11T10:53:13.277] [INFO] default - This is a logger info
+[2023-09-11T10:53:13.278] [INFO] default - This is a logger info
+[2023-09-11T11:11:23.967] [INFO] default - This is a logger info
+[2023-09-11T11:11:23.969] [INFO] default - This is a logger info
+[2023-09-11T11:20:12.754] [INFO] default - This is a logger info
+[2023-09-11T11:20:12.755] [INFO] default - This is a logger info
+[2023-09-11T14:25:09.088] [INFO] default - This is a logger info
+[2023-09-11T14:25:09.090] [INFO] default - This is a logger info

@@ -1,0 +1,49 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/typescript",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "import", "prettier"],
+  "root": true,
+  "rules": {
+    "prettier/prettier": 2,
+    "no-console": 2,
+    "import/no-cycle": 2,
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/naming-convention": [
+      2,
+      {
+        "selector": "variableLike",
+        "format": ["camelCase", "UPPER_CASE"]
+      },
+      {
+        "selector": "memberLike",
+        "format": ["camelCase"],
+        "leadingUnderscore": "allow"
+      },
+      {
+        "selector": ["enumMember"],
+        "format": ["PascalCase", "UPPER_CASE"],
+        "leadingUnderscore": "forbid"
+      },
+      {
+        "selector": ["typeLike"],
+        "format": ["PascalCase"],
+        "leadingUnderscore": "forbid"
+      }
+    ]
+  },
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true
+      }
+    }
+  }
+}
